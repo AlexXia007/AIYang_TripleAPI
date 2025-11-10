@@ -1,0 +1,607 @@
+{
+  "id": "4b0a7210-6a3c-4f83-9ce2-9a4da25fd469",
+  "revision": 0,
+  "last_node_id": 464,
+  "last_link_id": 708,
+  "nodes": [
+    {
+      "id": 454,
+      "type": "ShowText|pysssss",
+      "pos": [
+        -6000,
+        -930
+      ],
+      "size": [
+        740,
+        320
+      ],
+      "flags": {},
+      "order": 4,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "text",
+          "type": "STRING",
+          "link": 695
+        }
+      ],
+      "outputs": [
+        {
+          "label": "字符串",
+          "name": "STRING",
+          "shape": 6,
+          "type": "STRING",
+          "links": null
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-custom-scripts",
+        "ver": "aac13aa7ce35b07d43633c3bbe654a38c00d74f5",
+        "Node name for S&R": "ShowText|pysssss"
+      },
+      "widgets_values": [
+        "{\"error\": \"API已禁用或未提供密钥\"}"
+      ]
+    },
+    {
+      "id": 456,
+      "type": "ShowText|pysssss",
+      "pos": [
+        -5980,
+        200
+      ],
+      "size": [
+        730,
+        130
+      ],
+      "flags": {},
+      "order": 6,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "text",
+          "type": "STRING",
+          "link": 701
+        }
+      ],
+      "outputs": [
+        {
+          "label": "字符串",
+          "name": "STRING",
+          "shape": 6,
+          "type": "STRING",
+          "links": null
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-custom-scripts",
+        "ver": "aac13aa7ce35b07d43633c3bbe654a38c00d74f5",
+        "Node name for S&R": "ShowText|pysssss"
+      },
+      "widgets_values": [
+        "{\"code\": 10000, \"data\": {\"aigc_meta_tagged\": false, \"binary_data_base64\": null, \"image_urls\": [\"https://p26-aiop-sign.byteimg.com/tos-cn-i-vuqhorh59i/20251111010955E6AF8158BBCE466E488A-1585-0~tplv-vuqhorh59i-image-v1.image?rk3s=7f9e702d&x-expires=1762880995&x-signature=SWRBW%2BmzCDbPb5CnqiLstZfi9Ic%3D\"], \"status\": \"done\", \"video_url\": \"\"}, \"message\": \"Success\", \"request_id\": \"20251111010955E6AF8158BBCE466E488A\", \"status\": 10000, \"time_elapsed\": \"224.396757ms\"}"
+      ]
+    },
+    {
+      "id": 459,
+      "type": "ShowText|pysssss",
+      "pos": [
+        -5960,
+        400
+      ],
+      "size": [
+        290,
+        170
+      ],
+      "flags": {},
+      "order": 10,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "text",
+          "type": "STRING",
+          "link": 700
+        }
+      ],
+      "outputs": [
+        {
+          "label": "字符串",
+          "name": "STRING",
+          "shape": 6,
+          "type": "STRING",
+          "links": null
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-custom-scripts",
+        "ver": "aac13aa7ce35b07d43633c3bbe654a38c00d74f5",
+        "Node name for S&R": "ShowText|pysssss"
+      },
+      "widgets_values": [
+        "[\"https://p26-aiop-sign.byteimg.com/tos-cn-i-vuqhorh59i/20251111010955E6AF8158BBCE466E488A-1585-0~tplv-vuqhorh59i-image-v1.image?rk3s=7f9e702d&x-expires=1762880995&x-signature=SWRBW%2BmzCDbPb5CnqiLstZfi9Ic%3D\"]"
+      ]
+    },
+    {
+      "id": 451,
+      "type": "PreviewImage",
+      "pos": [
+        -6540,
+        -850
+      ],
+      "size": [
+        500,
+        400
+      ],
+      "flags": {},
+      "order": 1,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 692
+        }
+      ],
+      "outputs": [],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.49",
+        "Node name for S&R": "PreviewImage"
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 457,
+      "type": "ShowText|pysssss",
+      "pos": [
+        -5990,
+        -550
+      ],
+      "size": [
+        290,
+        170
+      ],
+      "flags": {},
+      "order": 8,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "text",
+          "type": "STRING",
+          "link": 698
+        }
+      ],
+      "outputs": [
+        {
+          "label": "字符串",
+          "name": "STRING",
+          "shape": 6,
+          "type": "STRING",
+          "links": null
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-custom-scripts",
+        "ver": "aac13aa7ce35b07d43633c3bbe654a38c00d74f5",
+        "Node name for S&R": "ShowText|pysssss"
+      },
+      "widgets_values": [
+        "[\"api_disabled\"]"
+      ]
+    },
+    {
+      "id": 455,
+      "type": "ShowText|pysssss",
+      "pos": [
+        -5980,
+        -320
+      ],
+      "size": [
+        740,
+        170
+      ],
+      "flags": {},
+      "order": 5,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "text",
+          "type": "STRING",
+          "link": 696
+        }
+      ],
+      "outputs": [
+        {
+          "label": "字符串",
+          "name": "STRING",
+          "shape": 6,
+          "type": "STRING",
+          "links": null
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-custom-scripts",
+        "ver": "aac13aa7ce35b07d43633c3bbe654a38c00d74f5",
+        "Node name for S&R": "ShowText|pysssss"
+      },
+      "widgets_values": [
+        "{\"model\": \"doubao-seedream-4-0-250828\", \"created\": 1762794587, \"data\": [{\"url\": \"https://ark-content-generation-v2-cn-beijing.tos-cn-beijing.volces.com/doubao-seedream-4-0/021762794572349de244866fb4ff96ba22fbbe18ed495f043eee7_0.jpeg?X-Tos-Algorithm=TOS4-HMAC-SHA256&X-Tos-Credential=AKLTYWJkZTExNjA1ZDUyNDc3YzhjNTM5OGIyNjBhNDcyOTQ%2F20251110%2Fcn-beijing%2Ftos%2Frequest&X-Tos-Date=20251110T170947Z&X-Tos-Expires=86400&X-Tos-Signature=0ba88586e6d6e96315323844c88db6a1203599c914ec6614852ba7f73395ebe8&X-Tos-SignedHeaders=host\", \"size\": \"1312x736\"}], \"usage\": {\"generated_images\": 1, \"output_tokens\": 3772, \"total_tokens\": 3772}}"
+      ]
+    },
+    {
+      "id": 458,
+      "type": "ShowText|pysssss",
+      "pos": [
+        -5990,
+        -90
+      ],
+      "size": [
+        290,
+        170
+      ],
+      "flags": {},
+      "order": 9,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "text",
+          "type": "STRING",
+          "link": 699
+        }
+      ],
+      "outputs": [
+        {
+          "label": "字符串",
+          "name": "STRING",
+          "shape": 6,
+          "type": "STRING",
+          "links": null
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-custom-scripts",
+        "ver": "aac13aa7ce35b07d43633c3bbe654a38c00d74f5",
+        "Node name for S&R": "ShowText|pysssss"
+      },
+      "widgets_values": [
+        "[\"https://ark-content-generation-v2-cn-beijing.tos-cn-beijing.volces.com/doubao-seedream-4-0/021762794572349de244866fb4ff96ba22fbbe18ed495f043eee7_0.jpeg?X-Tos-Algorithm=TOS4-HMAC-SHA256&X-Tos-Credential=AKLTYWJkZTExNjA1ZDUyNDc3YzhjNTM5OGIyNjBhNDcyOTQ%2F20251110%2Fcn-beijing%2Ftos%2Frequest&X-Tos-Date=20251110T170947Z&X-Tos-Expires=86400&X-Tos-Signature=0ba88586e6d6e96315323844c88db6a1203599c914ec6614852ba7f73395ebe8&X-Tos-SignedHeaders=host\"]"
+      ]
+    },
+    {
+      "id": 460,
+      "type": "ShowText|pysssss",
+      "pos": [
+        -7110,
+        -800
+      ],
+      "size": [
+        290,
+        170
+      ],
+      "flags": {},
+      "order": 7,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "text",
+          "type": "STRING",
+          "link": 702
+        }
+      ],
+      "outputs": [
+        {
+          "label": "字符串",
+          "name": "STRING",
+          "shape": 6,
+          "type": "STRING",
+          "links": null
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-custom-scripts",
+        "ver": "aac13aa7ce35b07d43633c3bbe654a38c00d74f5",
+        "Node name for S&R": "ShowText|pysssss"
+      },
+      "widgets_values": [
+        "NanoBanana: 已禁用或未提供API密钥; 豆包: 成功(multi_img_fusion, 1张图片, 第1次尝试); 即梦: 成功(第1次尝试);"
+      ]
+    },
+    {
+      "id": 453,
+      "type": "PreviewImage",
+      "pos": [
+        -6470,
+        180
+      ],
+      "size": [
+        450,
+        470
+      ],
+      "flags": {},
+      "order": 3,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 694
+        }
+      ],
+      "outputs": [],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.49",
+        "Node name for S&R": "PreviewImage"
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 452,
+      "type": "PreviewImage",
+      "pos": [
+        -6610,
+        -350
+      ],
+      "size": [
+        440,
+        450
+      ],
+      "flags": {},
+      "order": 2,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 693
+        }
+      ],
+      "outputs": [],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.49",
+        "Node name for S&R": "PreviewImage"
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 464,
+      "type": "TripleAPIGenerate",
+      "pos": [
+        -7270,
+        -530
+      ],
+      "size": [
+        470,
+        1220
+      ],
+      "flags": {},
+      "order": 0,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "nanobanana_image",
+          "type": "IMAGE",
+          "links": [
+            692
+          ]
+        },
+        {
+          "name": "doubao_image",
+          "type": "IMAGE",
+          "links": [
+            693
+          ]
+        },
+        {
+          "name": "hidream_image",
+          "type": "IMAGE",
+          "links": [
+            694
+          ]
+        },
+        {
+          "name": "nanobanana_task_id",
+          "type": "STRING",
+          "links": null
+        },
+        {
+          "name": "nanobanana_response",
+          "type": "STRING",
+          "links": [
+            695
+          ]
+        },
+        {
+          "name": "doubao_response",
+          "type": "STRING",
+          "links": [
+            696
+          ]
+        },
+        {
+          "name": "hidream_response",
+          "type": "STRING",
+          "links": [
+            701
+          ]
+        },
+        {
+          "name": "hidream_task_id",
+          "type": "STRING",
+          "links": null
+        },
+        {
+          "name": "status_info",
+          "type": "STRING",
+          "links": [
+            702
+          ]
+        },
+        {
+          "name": "nanobanana_image_urls",
+          "type": "STRING",
+          "links": [
+            698
+          ]
+        },
+        {
+          "name": "doubao_image_urls",
+          "type": "STRING",
+          "links": [
+            699
+          ]
+        },
+        {
+          "name": "hidream_image_urls",
+          "type": "STRING",
+          "links": [
+            700
+          ]
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "TripleAPIGenerate"
+      },
+      "widgets_values": [
+        "一个可爱的泰迪犬和参考图女孩，在故宫的雪地里抛雪",
+        "https://api.nanobananaapi.ai/api/v1/nanobanana/generate",
+        "",
+        "https://ark.cn-beijing.volces.com/api/v3/images/generations",
+        "",
+        "https://visual.volcengineapi.com",
+        "",
+        false,
+        true,
+        true,
+        49052489,
+        "randomize",
+        "https://pinchuai.oss-cn-hangzhou.aliyuncs.com/test/niuzai.jpg\nhttps://pinchuai.oss-cn-hangzhou.aliyuncs.com/test/piyi.jpg\n",
+        3,
+        120,
+        "https://pinchuai.oss-cn-hangzhou.aliyuncs.com/test/heiqun.jpg",
+        "IMAGETOIAMGE",
+        1,
+        "auto",
+        "",
+        "doubao-seedream-4-0-250828",
+        "2K",
+        false,
+        "multi_img_fusion",
+        "auto",
+        6,
+        "img2img",
+        2,
+        2,
+        2
+      ]
+    }
+  ],
+  "links": [
+    [
+      692,
+      464,
+      0,
+      451,
+      0,
+      "IMAGE"
+    ],
+    [
+      693,
+      464,
+      1,
+      452,
+      0,
+      "IMAGE"
+    ],
+    [
+      694,
+      464,
+      2,
+      453,
+      0,
+      "IMAGE"
+    ],
+    [
+      695,
+      464,
+      4,
+      454,
+      0,
+      "STRING"
+    ],
+    [
+      696,
+      464,
+      5,
+      455,
+      0,
+      "STRING"
+    ],
+    [
+      698,
+      464,
+      9,
+      457,
+      0,
+      "STRING"
+    ],
+    [
+      699,
+      464,
+      10,
+      458,
+      0,
+      "STRING"
+    ],
+    [
+      700,
+      464,
+      11,
+      459,
+      0,
+      "STRING"
+    ],
+    [
+      701,
+      464,
+      6,
+      456,
+      0,
+      "STRING"
+    ],
+    [
+      702,
+      464,
+      8,
+      460,
+      0,
+      "STRING"
+    ]
+  ],
+  "groups": [],
+  "config": {},
+  "extra": {
+    "ds": {
+      "scale": 0.7247295000000494,
+      "offset": [
+        8256.876743851146,
+        1143.2934700394585
+      ]
+    },
+    "frontendVersion": "1.23.4",
+    "0246.VERSION": [
+      0,
+      0,
+      4
+    ],
+    "ue_links": [],
+    "links_added_by_ue": [],
+    "VHS_latentpreview": false,
+    "VHS_latentpreviewrate": 0,
+    "VHS_MetadataImage": true,
+    "VHS_KeepIntermediate": true
+  },
+  "version": 0.4
+}

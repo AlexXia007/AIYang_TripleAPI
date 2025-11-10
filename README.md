@@ -1,7 +1,3 @@
-# AIYang_TripleAPI
-comfyui nodes Triple API Generate (NanoBanana + Doubao + HiDream)
-
-
 # ComfyUI 三合一 AI 图像生成节点
 
 这个项目为 ComfyUI 提供了两个强大的自定义节点，集成了三个主流的中文AI图像生成平台：**即梦AI**、**火山引擎豆包**和**NanoBanana**。支持文生图和图生图功能。
@@ -248,4 +244,3 @@ URL输出功能为每个API生成的图片提供直接的URL链接，让您可�
 **NanoBanana**
 1. 访问 [NanoBanana官网](https://nanobanana.ai/)
 2. 注册账号并获取API访问权限
-
